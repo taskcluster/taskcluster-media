@@ -2,11 +2,16 @@
 
 ## Assets
 
-This repository contains permalinkable Taskcluster assets:
+This repository contains permalinkable Taskcluster assets (all also available
+via http if necessary):
 
- * //media.taskcluster.net/logo/logo.png -- large logo (size may change)
+ * https://media.taskcluster.net/logo/logo.png -- large logo (size may change)
 
-These assets are sync'd to an S3 bucket and served by Cloudfront; use `sync.sh` to (manually) update that data.
+These assets are uploaded to an S3 bucket and served by Cloudfront.
+
+### Updating
+
+Use `sync.sh` to (manually) update the media data.
 
 ## Sources
 
