@@ -7,6 +7,10 @@ via http if necessary):
 
  * https://media.taskcluster.net/logo/logo.png -- large logo (size may change)
  * https://media.taskcluster.net/logo/logo-96x120.png -- 96x12 logo
+ * https://media.taskcluster.net/favicons/faviconLogo.png -- a plain favicon (left-justified)
+ * https://media.taskcluster.net/favicons/faviconLogoCompleted.png -- plain favicon with a "completed" indication
+ * https://media.taskcluster.net/favicons/faviconLogoFailed.png -- plain favicon with a "failed" indication
+ * https://media.taskcluster.net/favicons/faviconLogoRunning.png -- plain favicon with a "running" indication
 
 These assets are uploaded to an S3 bucket and served by Cloudfront.
 
